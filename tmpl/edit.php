@@ -29,6 +29,11 @@ $path   = JPATH_SITE.'/templates/'.$defaultemplate.'/dyndefault.php';
         
 		?>
 	</ul>
+    <?php
+    echo JText::_( 'COM_CCK_PATHHELPER' );
+    echo "<br/>Root: ".JPATH_SITE;
+    echo "<br/>Templates: ".JPATH_SITE.'/templates/'.$defaultemplate.'/';
+    ?>
 </div>
 
 
